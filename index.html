@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+    <nav class="navbar background h-nav">
+        <ul class="nav-list v-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightnav v-nav">
+            <input type="text" placeholder="search">
+            <button class="btn-sm">Search</button>
+        </div>
+        <div class="burgur">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+    <section class="background firstsection">
+        <div class="landing">
+            <div class="homeText">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="btn-body">
+                    <button class="subscribe">Subscribe</button>
+                <button class="watch">watch Video</button>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section class="gymhelp" id="about">
+        <div class="secleft">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <img src="images/img-1.jpg" alt="" class="thumbnail">
+        </div>
+        
+    </section>
+    <section class="gymhelp">
+        <div class="secright">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <img src="images/img-1.jpg" alt="" class="thumbnail">
+        </div>
+        
+    </section>
+    <section class="gymhelp">
+        <div class="secleft">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <img src="images/img-1.jpg" alt="" class="thumbnail">
+        </div>
+        
+    </section>
+    <section class="contact" id="contact">
+        <h1>Contact us</h1>
+        <div class="input">
+            <input type="text" placeholder="Enter Your Email">
+            <input type="text" placeholder="Enter Your Email">
+            <input type="text" placeholder="Enter Your Email">
+            <textarea name="description" id="" cols="30" rows="10" placeholder="Describe Your Concern"></textarea>
+            <button class="btn-contact">Send</button>
+        </div> 
+    </section>
+ <footer class="background">
+    All Copyrights Reserved - Gym website
+ </footer>
+   <script>
+        let burgur = document.querySelector('.burgur');
+        let navbar = document.querySelector('.navbar');
+        let rightnav = document.querySelector('.rightnav');
+        let navlist = document.querySelector('.nav-list');
+        burgur.addEventListener('click',()=>{
+            navbar.classList.toggle('h-nav');
+            navlist.classList.toggle('v-nav');
+            rightnav.classList.toggle('v-nav');
+
+        })
+   </script>
+</body>
+</html>

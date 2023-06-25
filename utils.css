@@ -1,0 +1,9 @@
+.background{
+    background:url(images/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.thumbnail{
+    width: 200px;
+    height: 200px;
+}
