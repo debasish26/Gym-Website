@@ -1,5 +1,3 @@
-# Gym Website Template
-
 This is a gym website template designed to showcase a fitness center or gymnasium. It is built using HTML and CSS, providing a clean and modern layout to display essential information about the gym, its facilities, trainers, and classes. The template is fully responsive, ensuring it looks great on various devices, from desktops to mobile phones.
 
 ![image](https://github.com/debasish26/Gym-Website/assets/73976256/cb9eac73-9884-43ec-ae91-fb48b1f9aea5)
